@@ -47,16 +47,16 @@ export function Menu() {
   return (
     <section id="menu" className="py-24 px-6 bg-secondary">
       <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 ">
           <p className="text-accent text-sm tracking-[0.2em] uppercase mb-4">
             Notre carte
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-balance">
-            Galettes & Crêpes
+            Crêpes et Bénédictines
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-16">
+        <div className="grid md:grid-cols-2 gap-16 md:ml-24">
           <div>
             <h3 className="text-xl font-bold mb-1">Les Crêpes classiques</h3>
             <p className="text-sm text-muted-foreground font-bold mb-8 pb-2 border-b border-border">

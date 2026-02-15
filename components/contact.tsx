@@ -8,7 +8,7 @@ export function Contact() {
           <h2 className="text-4xl md:text-5xl mb-4 text-stone-800">
             Venez Nous Voir
           </h2>
-          <p className="text-lg text-stone-600">Au cœur du Vieux-Québec</p>
+          <p className="text-lg text-stone-600">Au cœur de Québec</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
@@ -57,7 +57,7 @@ export function Contact() {
 
           <div className="relative h-96 md:h-full rounded-lg overflow-hidden shadow-2xl">
             <img
-              src="https://images.unsplash.com/photo-1726807480004-6b98783c28db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxxdWViZWMlMjBjaXR5JTIwc3RyZWV0fGVufDF8fHx8MTc2ODA3ODU2NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src="https://mobile-img.lpcdn.ca/lpca/924x/r3996/c868fcad-12e4-11ea-82bb-0eda3a42da3c.jpg"
               alt="Rue Saint-Jean, Québec"
               className="w-full h-full object-cover"
             />
