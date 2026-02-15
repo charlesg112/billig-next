@@ -15,19 +15,22 @@ export const HeroImage = () => {
 
   const handleScroll = () => {
     if (imageRef.current) {
-      imageRef.current.style.transform = `translateY(${window.scrollY * 0.5}px)`; // Parallax effect
+      imageRef.current.style.transform = `translateY(${window.scrollY * 0.7}px)`; // Parallax effect
     }
   };
 
   return (
-    <div
-      className="absolute inset-0 bg-cover bg-center"
-      style={{
-        backgroundImage: `url('./hero-background.jpg')`,
-      }}
-      ref={imageRef}
-    >
-      <div className="absolute inset-0 bg-black/40" />
+    <div className="absolute inset-0 bg-cover bg-center overflow-hidden">
+      <div
+        className="absolute inset-0 bg-cover bg-center h-[120%]"
+        style={{
+          backgroundImage: `url('./hero-background.jpg')`,
+          top: "-10%",
+        }}
+        ref={imageRef}
+      >
+        <div className="absolute inset-0 bg-black/40" />
+      </div>
     </div>
   );
 };
