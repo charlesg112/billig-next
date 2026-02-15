@@ -2,18 +2,12 @@
 
 import { MenuButton } from "./buttons/MenuButton";
 import { ReserveButton } from "./buttons/ReserveButton";
+import { HeroImage } from "./hero/HeroImage";
 
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: `url('./hero-background.jpg')`,
-        }}
-      >
-        <div className="absolute inset-0 bg-black/40" />
-      </div>
+      <HeroImage />
 
       <div className="z-10 text-center gap-8 flex flex-col items-center text-white">
         <div className="inline-block">
