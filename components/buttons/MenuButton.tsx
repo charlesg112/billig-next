@@ -6,7 +6,7 @@ export const MenuButton = () => {
       onClick={() => {
         document.getElementById("menu")?.scrollIntoView({ behavior: "smooth" });
       }}
-      className="mt-2 px-8 py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-full transition-colors"
+      className="mt-2 px-8 py-3 bg-amber-500 hover:bg-amber-600 cursor-pointer text-white rounded-full transition-colors"
     >
       Découvrir notre carte
     </button>

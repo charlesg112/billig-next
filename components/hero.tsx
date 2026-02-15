@@ -1,6 +1,7 @@
 "use client";
 
 import { MenuButton } from "./buttons/MenuButton";
+import { ReserveButton } from "./buttons/ReserveButton";
 
 export function Hero() {
   return (
@@ -24,6 +25,7 @@ export function Hero() {
         <h1 className="text-xl md:text-2xl">Crêperie Bretonne</h1>
         <p className="text-lg md:text-xl">Rue Saint-Jean • Québec</p>
         <MenuButton />
+        <ReserveButton />
       </div>
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
